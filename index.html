@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroFuturo - Dashboard Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"> AGRO<span>FUTURO</span></div>
+        <p>Equilíbrio entre produção e meio ambiente</p>
+    </header>
+
+    <main class="dashboard-container">
+        
+        <div class="card card-verde">
+            <h3>💧 Umidade do Solo</h3>
+            <div class="valor" id="umidade-valor">62%</div>
+            <p class="status" id="umidade-status">Status: Ideal (Irrigação desligada)</p>
+        </div>
+
+        <div class="card card-verde">
+            <h3>☀️ Energia Solar</h3>
+            <div class="valor" id="energia-valor">4.8 kW</div>
+            <p class="status">Fazenda 100% autossustentável hoje</p>
+        </div>
+
+        <div class="card card-alerta">
+            <h3>🛢️ Reservatório de Água</h3>
+            <div class="valor" id="agua-valor">35%</div>
+            <p class="status" id="agua-status">Status: Atenção (Captação de chuva recomendada)</p>
+        </div>
+
+        <div class="card card-destaque">
+            <h3>🌳 Carbono Sequestrado</h3>
+            <div class="valor" id="carbono-valor">12.4 Ton</div>
+            <p class="status">Sua floresta protegida gerando bônus</p>
+        </div>
+
+    </main>
+
+    <section class="acoes">
+        <button id="btn-atualizar">Simular Atualização dos Sensores</button>
+    </section>
+
+    <footer>
+        <p>© 2026 AgroFuturo - Projeto Frontend Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
